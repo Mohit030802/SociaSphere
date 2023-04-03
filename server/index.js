@@ -23,7 +23,13 @@ app.use(morgan("common"));
 app.use(bodyParser.json({limit:"30mb",extended: true}));
 app.use(bodyParser.urlencoded({limit:"30mb",extended:true}));
 app.use("/assets",express.static(path.join(__dirname,'public/assets')));
+import authRoutes from './routes/auth.js'
+import userRoutes from './routes/users.js'
+import postRoutes from './routes/posts.js'
 import {register} from "./controller/auth.js";
+import { verifyToken } from "./middleware/auth.js";
+import createPost from "./controller/posts.js"
+
 
 /* FILE STORAGE */
 const storage=multer.diskStorage({
@@ -37,7 +43,11 @@ const storage=multer.diskStorage({
 const upload=multer({storage})
 /* ROUTES WITH FILE */
 app.post("/auth/register",upload.single("picture"),register);
-
+app.post("/posts",verifyToken,upload.single("picture"), createPost);
+/* ROUTES  */
+app.post("/auth",authRoutes);
+app.post("/users",userRoutes); 
+app.post("/posts",postRoutes);
 /* MONGOOSE SETUP */
 
 const PORT=process.env.PORT || 6001;
