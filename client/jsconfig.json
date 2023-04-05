@@ -1,0 +1,6 @@
+{
+    "complierOption":{
+        "basrUrl":"src"
+    },
+    "include":["src"]
+}
