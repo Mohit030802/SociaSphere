@@ -170,4 +170,4 @@ const MyPostWidget = ({ picturePath }) => {
 
 }
 
-export default MyPostWidget
+export default MyPostWidget; 
