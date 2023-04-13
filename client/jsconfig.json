@@ -1,6 +1,6 @@
 {
-    "complierOption":{
-        "basrUrl":"src"
-    },
-    "include":["src"]
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
 }

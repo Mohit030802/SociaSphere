@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:wght@500&family=Roboto+Slab:wght@300;400;700&family=Rubik:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 
 html,
 body,
 #root,
-.appp
-{
+.app {
   height: 100%;
   width: 100%;
-  font-family: 'Rubik',sans-serif;
+  font-family: "Rubik", sans-serif;
 }

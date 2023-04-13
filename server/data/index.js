@@ -149,8 +149,9 @@ export const posts = [
     firstName: "Steve",
     lastName: "Ralph",
     location: "New York, CA",
-    description: "Some really long random description",
-    picturePath: "post1.jpeg",
+    description:
+      "The Holocaust, also known as the Shoah, was a genocide in which approximately six million Jews were systematically murdered by Nazi Germany and its collaborators during World War II. The Holocaust also resulted in the deaths of millions of other people, including Romani people, people with disabilities, political dissidents, and others who were considered undesirable by the Nazis. ",
+    picturePath: "post1.jpg",
     userPicturePath: "p3.jpeg",
     likes: new Map([
       [userIds[0], true],
@@ -171,8 +172,8 @@ export const posts = [
     lastName: "Doing",
     location: "Korea, CA",
     description:
-      "Another really long random description. This one is longer than the previous one.",
-    picturePath: "post2.jpeg",
+      "The Mughals were a powerful Muslim dynasty that ruled over the Indian subcontinent from 1526 to 1857. The Mughal Empire was founded by Babur, a Central Asian warrior, who defeated the Sultan of Delhi in the Battle of Panipat in 1526.",
+    picturePath: "mughal.jpg",
     userPicturePath: "p6.jpeg",
     likes: new Map([
       [userIds[7], true],
@@ -194,8 +195,8 @@ export const posts = [
     lastName: "Doe",
     location: "Utah, CA",
     description:
-      "This is the last really long random description. This one is longer than the previous one.",
-    picturePath: "post3.jpeg",
+      "The Delhi Sultanate refers to the Muslim dynasty that ruled over parts of India from the 13th to the 16th century. The sultanate was established in 1206 by Qutub-ud-din Aibak after the defeat of the last Hindu ruler of Delhi, Prithviraj Chauhan. The Delhi Sultanate was the first Muslim dynasty to rule over India, and it was characterized by a period of significant political, economic, and cultural developments.",
+    picturePath: "delhi.jpg",
     userPicturePath: "p5.jpeg",
     likes: new Map([
       [userIds[1], true],
@@ -218,8 +219,8 @@ export const posts = [
     lastName: "Dunn",
     location: "Los Angeles, CA",
     description:
-      "This is the last really long random description. This one is longer than the previous one. Man I'm bored. I'm going to keep typing until I run out of things to say.",
-    picturePath: "post4.jpeg",
+      "The Indian Rebellion of 1857, also known as the Indian Mutiny or the First War of Indian Independence, was a widespread uprising against British rule in India. The rebellion began in May 1857 in the town of Meerut and quickly spread to other parts of the country.",
+    picturePath: "revolt.jpg",
     userPicturePath: "p7.jpeg",
     likes: new Map([
       [userIds[1], true],
@@ -242,8 +243,8 @@ export const posts = [
     lastName: "Vowel",
     location: "Chicago, IL",
     description:
-      "Just a short description. I'm tired of typing. I'm going to play video games now.",
-    picturePath: "post5.jpeg",
+      "The Constituent Assembly of India was a body of elected representatives established in 1946 to draft the Constitution of India, which would govern the country after independence from British rule. The Assembly was comprised of 299 elected members and was chaired by Dr. Rajendra Prasad",
+    picturePath: "assembly.jpg",
     userPicturePath: "p8.jpeg",
     likes: new Map([
       [userIds[1], true],
@@ -266,8 +267,8 @@ export const posts = [
     lastName: "Dunn",
     location: "Washington, DC",
     description:
-      "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
-    picturePath: "post6.jpeg",
+      "The Emergency in India was a period of 21 months (from 1975 to 1977) when India was ruled by the then-Prime Minister Indira Gandhi, under the provision of Article 352 of the Indian Constitution, which allows the government to impose a state of emergency in the event of a threat to national security or stability.",
+    picturePath: "emergency.jpg",
     userPicturePath: "p9.jpeg",
     likes: new Map([
       [userIds[1], true],
