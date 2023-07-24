@@ -11,14 +11,7 @@
       }
     ],
     "routes": [
-      {
-        "src": "/",
-        "dest": "index.js"
-      },
-      {
-        "src": "//profile/:userId",
-        "dest": "index.js"
-      },
+     
       {
         "src": "/",
         "dest": "build/index.html"
