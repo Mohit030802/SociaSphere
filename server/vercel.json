@@ -24,6 +24,10 @@
         "dest": "build/index.html"
       },
       {
+        "src": "/auth/register",
+        "dest": "index.js"
+      },
+      {
         "src": "/(.+)",
         "dest": "build/$1"
       }
